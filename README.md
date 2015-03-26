@@ -5,7 +5,7 @@ Using UI-Bootstrap for JS (Twitter Bootstrap written natively in AngularJS) and 
 ### Installing from existing bower.json
 	bower install
 ### Creating a new bower.json 
-Using the `init` command to create a bower.json and using the --saved flag to store the dependencies in the bower.json file.
+Using the `init` command to create a bower.json and using the `--saved` flag to store the dependencies in the bower.json file.
 
 	bower init
 	bower install angular-bootstrap --saved
