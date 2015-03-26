@@ -1,2 +1,7 @@
 # simpleSeed
-A "Hello World" seed for an AngularJs+Bootstrap application
+A very simple "Hello World" seed for an AngularJs+Bootstrap application
+
+
+## Install 
+	bower install
+

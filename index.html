@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app="testApp">
+<head>
+	<meta charset="utf-8">
+	<title>Hello World</title>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+	<script src="app/app.js"></script>
+	<script src="app/testController.js"></script>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-controller="TestController">
+	<h3>Hello {{Name}} ... <span class="label label-default">New</span></h3>
+	<button class="btn btn-primary" 
+			type="submit"
+			ng-click="SayHello(Name)">Button</button>
+</body>
+</html>
